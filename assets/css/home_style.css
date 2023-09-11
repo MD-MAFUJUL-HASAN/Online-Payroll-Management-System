@@ -1,0 +1,272 @@
+* { 
+padding : 0;
+margin : 0;
+} 
+body { 
+font-family : Arial, Helvetica, sans-serif;
+font-size : 13px;
+} 
+a { 
+color : #c05711;
+} 
+img { 
+padding : 5px;
+border : 1px solid #fcc874;
+} 
+img.floatTL { 
+float : left;
+margin-right : 10px;
+margin-bottom : 5px;
+margin-top : 15px;
+margin-left : 0;
+} 
+img.floatTR { 
+float : right;
+margin-left : 3px;
+margin-bottom : 0;
+margin-top : 15px;
+margin-right : 10px;
+} 
+#wrapper { 
+margin : 0 auto;
+width : 922px;
+} 
+#header1 { 
+color : #333;
+width : 900px;
+float : left;
+padding : 10px;
+border : 1px solid #ccc;
+height : 100px;
+margin : 10px 0 0 0;
+background-color : #ff4e0b;
+background-image : url(http://localhost/admin_panel/assets/images/topbg.jpg);
+background-repeat : repeat-x;
+} 
+.logo1 h1#lineone { 
+font-size : 1.2em;
+font-weight : bold;
+font-family : helvetica, arial, sans-serif;
+padding-top : 70px;
+padding-left : 20px;
+color : #532611;
+border : none;
+letter-spacing : -1px;
+} 
+.logo1 h1#lineone span { 
+color : #ffffff;
+} 
+.logo1 h2#linetwo { 
+padding-left : 20px;
+font-size : 0.9em;
+font-family : helvetica, arial, sans-serif;
+text-transform : none;
+color : #ffffff;
+} 
+.logo1 a { 
+color : #ffffff;
+text-decoration : none;
+} 
+#navigation1 { 
+color : #333;
+margin : -40px 1px 0 0;
+background : #fff url(http://localhost/admin_panel/images/bbg.jpg) repeat-y;
+position : relative;
+float : right;
+background-color : #ff4e0b;
+} 
+#navigation1 ul { 
+margin : auto;
+padding : 0;
+list-style : none;
+} 
+#navigation1 ul li { 
+float : left;
+background : url(http://localhost/admin_panel/images/tab-right.jpg) no-repeat top right;
+margin-right : 3px;
+} 
+#navigation1 li a { 
+display : block;
+padding : 0 2em;
+line-height : 3em;
+background : url(http://localhost/admin_panel/images/tab-left.jpg) no-repeat top left;
+font-weight : bold;
+color : #fcc874;
+} 
+#navigation ul a:hover { 
+color : #b9ab62;
+} 
+#leftcolumn { 
+color : #333;
+border : 1px solid #ccc;
+background : #fff;
+margin : 5px 0 0 0;
+padding : 10px;
+min-height : 350px;
+width : 200px;
+float : left;
+} 
+#leftcolumn ul { 
+margin-top : 10px;
+padding-top : 2px;
+padding-bottom : 10px;
+margin-bottom : 10px;
+border-bottom : 1px dotted;
+background-color : #532611;
+} 
+#leftcolumn li { 
+margin-top : 10px;
+display : list-item;
+list-style-type : none;
+font-size : 1.2em;
+text-indent : 5px;
+border-bottom : 1px dotted #fcc874;
+padding-bottom : 5px;
+} 
+#leftcolumn ul li.last { 
+border-bottom : none;
+padding-bottom : 0;
+} 
+#leftcolumn li a { 
+color : #fcc874;
+text-decoration : none;
+display : block;
+} 
+.contact { 
+padding-top : 15px;
+padding-bottom : 15px;
+} 
+.contact p { 
+margin-top : 10px;
+color : #4a2c14;
+} 
+.aboutus p { 
+color : #4a2c14;
+font-size : 1.1em;
+padding-top : 10px;
+text-align : justify;
+} 
+#leftcolumn h3 { 
+margin : 0;
+font-size : 24px;
+font-weight : lighter;
+background-color : #69461e;
+text-indent : 5px;
+color : #fcc874;
+} 
+#rightcolumn { 
+float : right;
+color : #333;
+border : 1px solid #ccc;
+background : #f9f9ed;
+margin : 5px 0 5px 0;
+padding : 10px;
+min-height : 350px;
+width : 673px;
+display : inline;
+} 
+.topright { 
+padding-bottom : 20px;
+border-bottom : 1px dotted #69461e;
+} 
+.topright p { 
+text-align : justify;
+font-size : 1.1em;
+color : #69461e;
+padding-top : 10px;
+} 
+.topright h3 { 
+margin : 0;
+font-size : 24px;
+font-weight : lighter;
+background-color : #69461e;
+text-indent : 5px;
+color : #fcc874;
+} 
+#boxes { 
+margin : 15px auto;
+} 
+.box1 { 
+background-image : url(http://localhost/admin_panel/images/redbg.jpg);
+width : 315px;
+padding-right : 20px;
+float : left;
+border-right : 2px dotted #2196F3;
+} 
+.box1 p { 
+color : #3F51B5;
+font-size : 12px;
+margin-top : 10px;
+padding-left : 15px;
+padding-right : 15px;
+text-align : justify;
+} 
+.box1 h2, .box2 h2 { 
+margin : 5px 5px;
+font-size : 22px;
+width: 305px;
+font-weight : lighter;
+background-color : #2196F3;
+text-indent : 5px;
+color : white;
+} 
+.box1 a, .box2 a { 
+float : right;
+padding-right : 20px;
+padding-bottom : 10px;
+color : #c56a58;
+} 
+.box2 { 
+background-image : url(http://localhost/admin_panel/images/greenbg.jpg);
+width : 315px;
+float : right;
+} 
+.box2 p { 
+color : #4a2c14;
+font-size : 12px;
+margin-top : 10px;
+padding-left : 3px;
+padding-right : 0;
+text-align : justify;
+} 
+.clear { 
+clear : both;
+} 
+#triplebox { 
+min-height : 136px;
+padding : 0;
+float : left;
+display : inline;
+margin-top : 10px;
+border-top : 1px dotted #69461e;
+} 
+.col { 
+width : 210px;
+float : left;
+margin : 10px 7px;
+text-align : justify;
+} 
+.col p { 
+margin : 11px 0 0 0;
+padding : 0;
+color : #3F51B5;
+} 
+.col h3 { 
+font-size : 1.4em;
+font-weight : lighter;
+color : white;
+background-color : #2196F3;
+text-indent : 5px;
+} 
+#footer { 
+padding : 5px 0;
+background-color : #fff;
+display : inline;
+float : left;
+width : 100%;
+border-top : 1px solid #d1d1d1;
+font-size : 0.8em;
+text-align : center;
+color : #4a2c14;
+background-color : #f0f0f0;
+}
