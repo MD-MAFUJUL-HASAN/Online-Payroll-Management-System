@@ -26,26 +26,6 @@
   </p>
 
 
-How to Run ??
-Requirements
-
-Download and Install any local web server such as XAMPP/WAMP.
-Download the provided source code zip file. (download button is located below)
-Installation/Setup
-
-Open your XAMPP/WAMP's Control Panel and start the Apache and MySQL.
-Extract the downloaded source code zip file.
-If you are using XAMPP, copy the extracted source code folder and paste it into the XAMPP's "htdocs" directory. And If you are using WAMP, paste it into the "www" directory.
-Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
-Create a new database naming tei.
-Import the provided SQL file. The file is known as tei.sql located inside the database folder.
-Browse the Advance Charity Management System in a browser. i.e. http://localhost/members
-
-Default Admin Account:
-Username: 36303-1234567-8
-Password: shahg
-
-
 <h4>Following are the features of the developed system.</h4>
 <p>1. Its User-Friendly. Easy to use website.</p>
 <p>2. Store information about officers and criminals.</p>
@@ -81,6 +61,10 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
    localhost/Online-Payroll-Management-System
 
    ```
+
+7. Default Admin Account
+    Username `admin123@gmail.com`
+    Password `Admin@123`
 
    Congrats! The Website is live on your machine.
 
