@@ -71,8 +71,13 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
    ```
 
 7. Default Admin Account
-    Username `admin123@gmail.com`
-    Password `Admin@123`
+   
+  ```python
+
+   Username - admin123@gmail.com
+    Password - Admin@123
+
+  ```
 
    Congrats! The Website is live on your machine.
 
