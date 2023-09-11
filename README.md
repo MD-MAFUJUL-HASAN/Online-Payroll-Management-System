@@ -75,7 +75,7 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
   ```python
 
    Username - admin123@gmail.com
-    Password - Admin@123
+   Password - Admin@123
 
   ```
 
