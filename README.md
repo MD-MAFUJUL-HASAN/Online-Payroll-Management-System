@@ -83,7 +83,7 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
    Congrats! The Website is live on your machine.
 
 
-##  If you like my project hit a star button
+##  If you like my project hit a star(⭐) button
 
 
 
