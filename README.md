@@ -46,6 +46,8 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
 
    ```
 
+2. Find the clone folder on your user directory **C:\Users\mdton\Online-Payroll-Management-System**
+
 2. Copy and Paste the cloned folder in the **htdocs** folder in XAMPP folder on your machine.
 
 3. Start Apache and MySQL from XAMPP control panel.
