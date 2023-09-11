@@ -1,6 +1,6 @@
 <div align="center">
   
-  ### Online-Payroll-Management-System
+  # Online-Payroll-Management-System
 </div>
 
 <p align="center">
@@ -26,7 +26,7 @@
   </p>
 
 
-<h4>Following are the features of the developed system.</h4>
+# Following are the features of the developed system
 <p>1. Its User-Friendly. Easy to use website.</p>
 <p>2. Store information about Administrator and Employees.</p>
 <p>3. Reduced time consumption.</p>
