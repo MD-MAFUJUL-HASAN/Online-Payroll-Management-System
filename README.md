@@ -46,15 +46,15 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
 
    ```
 
-2. Find the clone folder on your user directory **C:\Users\mdton\Online-Payroll-Management-System**
+2. Find the cloned folder on your system directory. Example- `C:\Users\mdton\Online-Payroll-Management-System`
 
-2. Copy and Paste the cloned folder in the **htdocs** folder in XAMPP folder on your machine.
+3. Copy and Paste the cloned folder in the **htdocs** folder in XAMPP folder on your machine.
 
-3. Start Apache and MySQL from XAMPP control panel.
+4. Start Apache and MySQL from XAMPP control panel.
 
-4. Open browser and write `localhost` in the url bar and XAMPP interface will open. Navigate to phpMyAdmin using Navbar.
+5. Open browser and write `localhost/phpmyadmin/` in the url bar and PHP interface will open. Navigate to phpMyAdmin using Navbar.
 
-5. Import the `payrollmanage.sql` file in the phpMyAdmin panel in XAMPP.
+6. Create a new Database naming `payrollmanage` and Import the `payrollmanage.sql` file from your system `C:\xampp\htdocs\Online-Payroll-Management-System`
 
 6. Type in the browser url bar
 
