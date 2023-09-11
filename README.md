@@ -83,3 +83,27 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
    ```
 
    Congrats! The Website is live on your machine.
+
+
+##  If you like my project hit a star button
+
+
+
+# Screenshots
+![Image of login](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/login.png)
+![Image of dashboard](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/dashboard.png)
+![Image of branch](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/branch.png)
+![Image of department](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/department.png)
+![Image of designation](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/designation.png)
+![Image of employee](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/employee.png)
+![Image of holiday](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/holiday.png)
+![Image of payslip](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/payslip.png)
+![Image of shift](https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System/blob/main/Screeshot/shift.png)
+
+
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
