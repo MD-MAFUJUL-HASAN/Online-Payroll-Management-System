@@ -28,10 +28,11 @@
 
 <h4>Following are the features of the developed system.</h4>
 <p>1. Its User-Friendly. Easy to use website.</p>
-<p>2. Store information about officers and criminals.</p>
+<p>2. Store information about Administrator and Employees.</p>
 <p>3. Reduced time consumption.</p>
-<p>4. Criminal records can be printed.</p>
-<p>5. A pie chart of crime rate it available for statistical and analytical purpose.</p>
+<p>4. Employees Salary can be Printed.</p>
+<p>5. Online chat Service Integrated.</p>
+<p>6. Employees Performance analysis using Biometric.</p>
 
 
 # Instructions
