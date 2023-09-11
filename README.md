@@ -54,7 +54,13 @@ To get the website up and running on your machine, you will need [XAMPP](https:/
 
 5. Open browser and write `localhost/phpmyadmin/` in the url bar and PHP interface will open. Navigate to phpMyAdmin using Navbar.
 
-6. Create a new Database naming `payrollmanage` and Import the `payrollmanage.sql` file from your system `C:\xampp\htdocs\Online-Payroll-Management-System`
+6. Create a new Database naming `payrollmanage` and Import the `payrollmanage.sql` file from your system
+
+   ```python
+
+   C:\xampp\htdocs\Online-Payroll-Management-System
+
+   ```
 
 6. Type in the browser url bar
 
