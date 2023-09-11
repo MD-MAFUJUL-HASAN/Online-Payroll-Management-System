@@ -40,3 +40,7 @@ Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
 Create a new database naming tei.
 Import the provided SQL file. The file is known as tei.sql located inside the database folder.
 Browse the Advance Charity Management System in a browser. i.e. http://localhost/members
+
+Default Admin Account:
+Username: 36303-1234567-8
+Password: shahg
