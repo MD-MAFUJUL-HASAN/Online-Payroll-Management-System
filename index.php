@@ -36,14 +36,17 @@ if (!empty($_POST['username']) && !empty($_POST['password'])) {
     }
 }
 ?>
-<div class="login-box">
+
+<div class="login-box" style="border: 2px solid black; padding : 25px ; background-color : #27333d ; border-radius: 10%; font-family: 'Montserrat' ">
     <div class="logo">
-        <font color="#2196F3" size="5"><b><center>PAYROLL MANAGEMENT SYSTEM</b></font>
+        <font color="#ffffff" size="5"><b>
+                <center>PAYROLL MANAGEMENT SYSTEM
+            </b></font>
     </div>
-    <div class="card">
+    <div class="card" style="border-radius: 10%">
         <div class="body">
             <form id="sign_in" method="POST" action='.'>
-                <div class="msg">Sign in to start your session</div>
+                <div class="msg"><b>Sign in to start your session</b></div>
                 <div class="input-group">
                     <span class="input-group-addon">
                         <i class="material-icons">person</i>

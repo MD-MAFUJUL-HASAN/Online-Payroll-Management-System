@@ -1,4 +1,6 @@
 <?php
+include 'header.php';
+
 $enm = $_SESSION['emp_name'];
 $e = $_SESSION['employee_email'];
 $employeeid = $_SESSION['employee_id'];
@@ -35,8 +37,8 @@ if ($status) {
 </div>
 <!-- #END# Search Bar -->
 <!-- Top Bar -->
-<nav class="navbar">
-    <div class="container-fluid">
+<nav class="navbar" style="background-color: #02083d">
+    <div class="container-fluid" style="display: flex; justify-content: center;">
         <div class="navbar-header">
             <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
             <a href="javascript:void(0);" class="bars"></a>
@@ -53,13 +55,15 @@ if ($status) {
 <!-- #Top Bar -->
 <section>
     <!-- Left Sidebar -->
-    <aside id="leftsidebar" class="sidebar">
+    <aside id="leftsidebar" class="sidebar" style="font-family: 'Montserrat', sans-serif !important;">
         <!-- User Info -->
         <div class="user-info">
 
 
             <div class="info-container">
-                <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h3><?php print "$enm"; ?></h3></div>
+                <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <h3><?php print "$enm"; ?></h3>
+                </div>
                 <div class="email">
                     <input type="hidden" name="employeeid" class="form-control" value="<?php print "$e"; ?>" />
                     <?php print "$e"; ?>
@@ -82,40 +86,34 @@ if ($status) {
 
         <div class="menu">
             <ul class="list">
-                <li class="header">MAIN NAVIGATION</li>
-                <li>
-                    <a href="<?= ADMIN_URL ?>dashbord.php">
+                <li class="header" style="text-align: center;">MAIN NAVIGATION</li>
+                <li style="transition: background-color 0.5s;">
+                    <a href="<?= ADMIN_URL ?>dashbord.php" onmouseover="this.parentNode.style.backgroundColor = '#f0f0f0';" onmouseout="this.parentNode.style.backgroundColor = '';">
                         <img src='home.jpg' style='width:25px;height:25px;'>
                         <span>HOME</span>
                     </a>
                 </li>
-                <li>
-                    <a href="<?= ADMIN_URL ?>applyforleave.php">
+                <li style="transition: background-color 0.5s;">
+                    <a href="<?= ADMIN_URL ?>applyforleave.php" onmouseover="this.parentNode.style.backgroundColor = '#f0f0f0';" onmouseout="this.parentNode.style.backgroundColor = '';">
                         <img src='apply.jpg' style='width:30px;height:30px;'>
                         <span>APPLY FOR LEAVES</span>
                     </a>
                 </li>
-                <li>
-                    <a href="<?= ADMIN_URL ?>holiday_list.php">
+                <li style="transition: background-color 0.5s;">
+                    <a href="<?= ADMIN_URL ?>holiday_list.php" onmouseover="this.parentNode.style.backgroundColor = '#f0f0f0';" onmouseout="this.parentNode.style.backgroundColor = '';">
                         <img src='holidayicon.png' style='width:30px;height:30px;'>
                         <span>HOLIDAY LIST</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="<?= ADMIN_URL ?>emp_chat.php">
-                        <img src='msg.jpg' style='width:25px;height:25px;'>
-                        <span>CHAT</span>
                     </a>
                 </li>
             </ul>
         </div>
         <div class="legal">
             <div class="copyright">
-                © 2023 <a href="<?= ADMIN_URL ?>dashbord.php">Employee Payroll management System<br>
-                    with chat application</a>.
+                © 2023<br> <a href="<?= ADMIN_URL ?>dashbord.php">Employee Payroll management System<br>
+                </a>.
             </div>
         </div>
     </aside>
-</div>
-<!-- #END# Right Sidebar -->
+    </div>
+    <!-- #END# Right Sidebar -->
 </section>
